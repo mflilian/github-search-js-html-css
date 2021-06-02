@@ -1,0 +1,86 @@
+h2,
+h1,
+img,
+body,
+div,
+li,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+
+.title {
+  color: rgb(72, 127, 90);
+  background: rgb(255, 255, 255);
+  text-shadow: rgb(0, 0, 0) 1px 1px;
+  font-size: 40px;
+}
+
+#nome {
+  text-align: center;
+  font-size: 18px;
+}
+
+.card-description p {
+  margin: 8px;
+}
+
+.card {
+  max-width: 200px;
+  max-height: 400px;
+}
+
+.card-description {
+  background: #41593f;
+  color: white;
+}
+
+.erromsg {
+  max-height: 250px;
+  overflow: hidden;
+}
+
+.card-img {
+  max-height: 250px;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.btn {
+  background: #41593f;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin: 0 10px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 4px;
+  outline: none;
+  width: 220px;
+}
+
+.form {
+  margin: 20px 0;
+}
+
+.messagemErro {
+  text-align: center;
+  color: red;
+}
